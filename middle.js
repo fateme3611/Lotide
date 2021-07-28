@@ -45,14 +45,15 @@ const middle = function (array) {
   }
 }
 
-// TEST CODE
-eqArrays(middle([]), []);
-eqArrays(middle([1]), []);
-eqArrays(middle([1, 2]), []);
-eqArrays(middle([1, 2, 3]), [2]);
-eqArrays(middle([1, 2, 3, 4]), [2, 3]);
-eqArrays(middle([1, 2, 3, 4, 5]), [3]);
-eqArrays(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
-eqArrays(middle([1, 2, 3, 4, 5, 6, 7]), [4]);
-eqArrays(middle([1, 2, 3, 4, 5, 6, 7]), [5]);
-// ...
+module.exports = middle
+// // TEST CODE
+// eqArrays(middle([]), []);
+// eqArrays(middle([1]), []);
+// eqArrays(middle([1, 2]), []);
+// eqArrays(middle([1, 2, 3]), [2]);
+// eqArrays(middle([1, 2, 3, 4]), [2, 3]);
+// eqArrays(middle([1, 2, 3, 4, 5]), [3]);
+// eqArrays(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
+// eqArrays(middle([1, 2, 3, 4, 5, 6, 7]), [4]);
+// eqArrays(middle([1, 2, 3, 4, 5, 6, 7]), [5]);
+// // ...

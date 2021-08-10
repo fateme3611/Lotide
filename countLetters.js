@@ -18,7 +18,6 @@ const countLetters = function (sentenc) {
     }
   }
   console.log(count);
-  return count;
 };
 
 console.log(countLetters("Karl Salima Agouhanna Fang Kavith Jason Salima Fang Joe"));

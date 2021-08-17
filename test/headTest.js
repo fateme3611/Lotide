@@ -8,6 +8,10 @@ describe("#head", () => {
     it("returns 7 for [7, 8, 9, 10 , 11]", () => {
         assert.strictEqual(head([7, 8, 9, 10 , 11]), 7);
     });
+    it("returns '5' for ['5']", () => {
+      assert.strictEqual(head(['5']), '5'); 
+    });
+  
      });
 
 

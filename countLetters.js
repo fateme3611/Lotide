@@ -1,11 +1,3 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log("✅✅✅ Assertion Passed: " + actual + " === " + expected);
-  } else if (actual !== expected) {
-    console.log("🛑🛑🛑 Assertion Failed: " + actual + " !== " + expected);
-  }
-};
 const countLetters = function (sentenc) {
   let count = {};
   for (let letter of sentenc) {
@@ -17,7 +9,7 @@ const countLetters = function (sentenc) {
       }
     }
   }
-  console.log(count);
+  return count;
 };
 
-console.log(countLetters("Karl Salima Agouhanna Fang Kavith Jason Salima Fang Joe"));
+module.exports = countLetters;
